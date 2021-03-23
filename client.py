@@ -28,7 +28,7 @@ while (True):
   data = json.dumps(json_object)
   connection.send(data.encode()) 
 
-  print ('\n [Valores enviados para o servidor]')
+  print ('\n Valores enviados para o servidor [✓]')
 
   connection.close()
   break
